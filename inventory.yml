@@ -29,18 +29,18 @@ all:
 
     wireguard_host: "wg.{{ root_host }}"
 
-    wireguard_port: "51820"
+    wireguard_port: "22735"
 
     dns_nameservers:
-      - 1.1.1.1
-      - 1.0.0.1
+      - 94.140.14.14
+      - 94.140.15.15
 
     # Language and time settings
     # Check here for the list of possible locales
     # https://docs.oracle.com/cd/E23824_01/html/E26033/glset.html
     locale: en_US.UTF-8
 
-    timezone: Europe/Berlin
+    timezone: Asia/Kolkata
 
     # Set the time at which the system should reboot after installing updates (24H format)
     autoupdate_reboot_time: 03:00
