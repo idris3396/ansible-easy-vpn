@@ -32,8 +32,8 @@ all:
     wireguard_port: "22735"
 
     dns_nameservers:
-      - 94.140.14.14
-      - 94.140.15.15
+      - 45.90.28.199
+      - 45.90.30.199
 
     # Language and time settings
     # Check here for the list of possible locales
